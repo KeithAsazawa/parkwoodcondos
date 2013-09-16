@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def floorplans
   end
+
+  def listings
+  end
 end

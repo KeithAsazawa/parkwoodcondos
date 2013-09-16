@@ -1,0 +1,72 @@
+container	{
+	
+}
+
+/* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
+
+.header {
+	border-bottom: 1px solid gray;
+	height: 220px;
+	margin: 0px auto
+}
+
+.header-logo {
+	text-align: center;
+}
+
+/* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ 
+
+.navbar {
+	border-bottom: 1px solid gray;
+	li {
+		list-style-type: none;
+		display: inline-block;
+		margin-left: 25px;
+	}
+	ul {
+		text-align: center;
+	}
+}
+
+/* BODY */ /* BODY */ /* BODY */ /* BODY */ /* BODY */ 
+
+.parkwoods-info {
+	min-width: 450px;
+	max-width: 700px;
+	border: 1px solid blue;
+	margin: 25px auto;
+}
+
+.about-parkwoods {
+	height: 400px;
+	width: 300px;
+	border: 1px solid red;
+	margin: 20px 10px;
+	float: left;
+}
+
+.recent-listings {
+	height: 400px;
+	width: 300px;
+	border: 1px solid green;
+	margin: 20px 10px;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ 
+
+.footer {
+	border: 1px solid gray;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.footer-border {
+	height: 30px;
+	background-color: green;
+}
