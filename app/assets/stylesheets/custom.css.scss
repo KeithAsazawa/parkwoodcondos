@@ -22,6 +22,9 @@ container	{
 		list-style-type: none;
 		display: inline-block;
 		margin-left: 25px;
+		a {
+			text-decoration: none;
+		}
 	}
 	ul {
 		text-align: center;
@@ -31,30 +34,38 @@ container	{
 /* BODY */ /* BODY */ /* BODY */ /* BODY */ /* BODY */ 
 
 .parkwoods-info {
+	height: 750px;
 	min-width: 450px;
-	max-width: 700px;
+	max-width: 1080px;
 	border: 1px solid blue;
 	margin: 25px auto;
 }
 
 .about-parkwoods {
-	height: 400px;
-	width: 300px;
+	height: 750px;
+	width: 49%;
 	border: 1px solid red;
-	margin: 20px 10px;
+	/*margin: 5px 10px;*/
 	float: left;
 }
 
 .recent-listings {
-	height: 400px;
-	width: 300px;
+	height: 750px;
+	width: 49%;
 	border: 1px solid green;
-	margin: 20px 10px;
 	float: right;
 }
 
 .clear {
 	clear: both;
+}
+
+/* RECENT LISTINGS */
+
+.thumbnail-image {
+	width: 50%;
+	margin: 0px 10px;
+	text-align: center;
 }
 
 
