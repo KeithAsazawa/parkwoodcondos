@@ -37,32 +37,91 @@ container	{
 	height: 1200px;
 	min-width: 450px;
 	max-width: 1080px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin: 25px auto;
 }
 
 .about-parkwoods {
-	height: 450px;
+	height: 535px;
 	width: 100%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	/*margin: 5px 10px;*/
 	/*float: left;*/
 }
 
-.about-title
+.about-title {
+	background-color: gray;
+	height: 50px;
+	margin-bottom: 15px;
+	h2 {
+	/*	margin: 5px 0px 0px 0px;*/
+	padding-top: 10px;
+	padding-left: 15px;
+	}
+}
+
+.about-body {
+	padding: 12px;
+	.about-left {
+		width: 62%;
+		height: 176px;
+		/*border: 1px solid red;*/
+		float: left;
+	}
+	.about-right {
+		float: right;
+		width: 34%;
+		margin-bottom: 15px;
+		/*border: 1px solid blue;*/
+		img {
+			width: 100%;
+		}
+	}
+	.about-botleft {
+		/*border: 1px solid orange;*/
+		width: 33%;
+		height: 00px;
+		img {
+			width: 100%;
+		}
+	}
+	.about-botright {
+		/*border: 1px solid green;*/
+		float: right;
+		width: 65%;
+	}
+}
 
 .recent-listings {
 	height: 750px;
 	width: 100%;
 	border: 1px solid green;
-	/*float: right;*/
+	.recent-title {
+		background-color: gray;
+		height: 50px;
+		margin-bottom: 15px;
+		h2 {
+			margin: 0px;
+			padding-top: 10px;
+			padding-left: 15px;
+		}
+	}
 }
+
 
 .clear {
 	clear: both;
 }
 
 /* RECENT LISTINGS */
+
+.listing {
+	/*float: left;*/
+}
+
+.listing-info {
+	float: right;
+}
 
 .thumbnail-image {
 	width: 20%;
