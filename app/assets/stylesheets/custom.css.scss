@@ -1,5 +1,18 @@
-container	{
-	
+h2 {
+	font-family: 'Raleway';
+}
+
+h3, h4, h5 {
+	margin: 0px;
+}
+
+ul {
+	margin-right: 47px;
+}
+
+li {
+	font-family: 'Raleway';
+	font-weight: bold;
 }
 
 /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
@@ -34,7 +47,7 @@ container	{
 /* BODY */ /* BODY */ /* BODY */ /* BODY */ /* BODY */ 
 
 .parkwoods-body {
-	height: 1200px;
+	height: 1390px;
 	min-width: 732px;
 	max-width: 1080px;
 	/*border: 1px solid blue;*/
@@ -94,10 +107,17 @@ container	{
 	}
 }
 
+.clear {
+	clear: both;
+}
+
+/* RECENT LISTINGS */ /* RECENT LISTINGS */ /* RECENT LISTINGS */
+
 .recent-listings {
 	height: 750px;
 	width: 100%;
-	border: 1px solid green;
+	/*border: 1px solid green;*/
+	margin-top: 15px;
 	.recent-title {
 		background-color: gray;
 		height: 50px;
@@ -110,24 +130,37 @@ container	{
 	}
 }
 
-
-.clear {
-	clear: both;
-}
-
-/* RECENT LISTINGS */
-
 .listing {
-	/*float: left;*/
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #747474;
+	border-radius: 2px;
+	margin-top: 25px;
 }
 
 .listing-info {
+	width: 67%;
+	height: 100%;
 	float: right;
+	h1 {
+		margin: 0px;
+		font-family: 'Raleway';
+		font-weight: 100;
+		color: #008000;
+	}
+	h3, h5, p {
+		font-family: 'Raleway';
+	}
+}
+
+.listing-thumb {
+	float: left;
+	width: 29%;
 }
 
 .thumbnail-image {
-	width: 20%;
-	margin: 0px 10px;
+	width: 100%;
+	margin: 0px 10px 12px 10px;
 	text-align: center;
 }
 
@@ -135,12 +168,13 @@ container	{
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ 
 
 .footer {
-	border: 1px solid gray;
-	height: 50px;
-	margin-top: 20px;
+	/*border: 1px solid gray;*/
+	height: 220px;
+	background-color: gray;
+	/*margin-top: 20px;*/
 }
 
 .footer-border {
-	height: 30px;
-	background-color: green;
+	height: 10px;
+	background-color: #ED5B34;
 }
