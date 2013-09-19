@@ -80,15 +80,17 @@ container	{
 	.about-botleft {
 		/*border: 1px solid orange;*/
 		width: 33%;
-		height: 00px;
+		height: 0px;
 		img {
 			width: 100%;
 		}
 	}
 	.about-botright {
 		/*border: 1px solid green;*/
+		height: 259px;
 		float: right;
 		width: 65%;
+
 	}
 }
 
