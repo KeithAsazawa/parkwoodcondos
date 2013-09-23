@@ -1,5 +1,8 @@
 Parkwoodcondos::Application.routes.draw do
 
+  resources :listings
+
+
   root :to => 'pages#home' 
   
   get 'floorplans' => 'pages#floorplans'
