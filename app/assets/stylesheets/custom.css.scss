@@ -196,7 +196,7 @@ li {
 }
 
 .footer-left {
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	width: 50%;
 	height: 218px;
 	float: left;
@@ -211,18 +211,21 @@ li {
 	width: 25%;
 	float: left;
 	.fastagentslogo {
-		margin: 10px 0px 0px 15px;
+		margin: 164px 0px 0px 15px;
 		width: 100%;
+		/*float: right;*/
 	}
-	.mjrelogo {
-		width: 100%;
-		margin: 122px 0px 0px 15px;
-	}
+}
+
+.mjrelogo {
+	width: 15%;
+	margin: 172px 13px 0px 15px;
+	float: right;
 }
 
 .follow-us {
 	width: 10%;
-	margin: 183px 468px 0px 15px;
+	margin: 180px 433px 0px 15px;
 	float: right;
 }
 
