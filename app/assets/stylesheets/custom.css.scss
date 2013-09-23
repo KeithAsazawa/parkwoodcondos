@@ -195,15 +195,47 @@ li {
 	/*margin-top: 20px;*/
 }
 
+.footer-left {
+	border: 1px solid green;
+	width: 50%;
+	height: 218px;
+	float: left;
+}
+
 .footer-border {
 	height: 10px;
 	background-color: #ED5B34;
 }
 
 .footer-image {
-	img {
-		margin: 165px 0px 0px 15px;
-		width: 13%;
+	width: 25%;
+	float: left;
+	.fastagentslogo {
+		margin: 10px 0px 0px 15px;
+		width: 100%;
+	}
+	.mjrelogo {
+		width: 100%;
+		margin: 122px 0px 0px 15px;
+	}
+}
+
+.follow-us {
+	width: 10%;
+	margin: 183px 468px 0px 15px;
+	float: right;
+}
+
+.contact-us {
+	height: 218px;
+	width: 49%;
+	border: 1px solid red;
+	float: right;
+}
+
+.about-us {
+	li {
+		list-style-type: none;
 	}
 }
 
