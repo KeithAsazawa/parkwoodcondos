@@ -6,8 +6,9 @@ Parkwoodcondos::Application.routes.draw do
   root :to => 'pages#home' 
   
   get 'floorplans' => 'pages#floorplans'
-
   get 'listings' => 'pages#listings'
+
+  get 'david' => 'listingviews#david'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
