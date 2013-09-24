@@ -254,13 +254,22 @@ li {
 /* FLOORPLANS */ /* FLOORPLANS */ /* FLOORPLANS */ /* FLOORPLANS */ 
 
 .floorplans {
+	width: 70%;
 	margin: 0px auto;
+}
+
+.floorplans-title {
+
 }
 
 .floorplan-images {
 	width: 70%;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	margin: 0px auto;
+	h2 {
+		text-align: center;
+		margin-top: 70px;
+	}
 }
 
 .image1 {
