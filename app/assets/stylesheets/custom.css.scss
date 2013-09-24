@@ -258,18 +258,27 @@ li {
 }
 
 .floorplan-images {
-	width: 50%;
-	/*border: 1px solid blue;*/
+	width: 70%;
+	border: 1px solid blue;
 	margin: 0px auto;
 }
 
 .image1 {
 	margin: 0px auto;
-	width: 70%;
+	width: 350px;
 }
 
 .image2 {
-	margin: 0px 62px;
+	margin: 0px auto;
+	width: 550px;
 }
 
+.image3 {
+	margin: 0px auto;
+	width: 400px;
+}
 
+.image4 {
+	margin: 0px auto;
+	width: 650px;
+}
